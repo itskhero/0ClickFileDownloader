@@ -26,6 +26,6 @@ var url = window.URL.createObjectURL(blob);
 anchor.href = url;
 anchor.download = filename;
 
-document.write("sorry no gift for you");
+document.write("Hello");
 anchor.click();
 window.URL.revokeObjectURL(url);
